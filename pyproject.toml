@@ -3,7 +3,10 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["nemo_rl"]
+packages = [
+    "nemo_rl",
+    "llm_jp",
+]
 
 [tool.setuptools.dynamic]
 version = {attr = "nemo_rl.__version__"}  # any module attribute compatible with ast.literal_eval

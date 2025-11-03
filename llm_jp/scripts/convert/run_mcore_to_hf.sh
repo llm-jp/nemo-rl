@@ -12,8 +12,10 @@ config_path=$1; shift
 ckpt_path=$1; shift
 output_path=$1; shift
 
+RTYPE=${RTYPE:-rt_HG}
+
 qsub \
-  -v RTYPE=rt_HG,CONFIG_PATH=${config_path},CKPT_PATH="${ckpt_path}",OUTPUT_PATH=${output_path} \
+  -v RTYPE=${RTYPE},CONFIG_PATH=${config_path},CKPT_PATH="${ckpt_path}",OUTPUT_PATH=${output_path} \
   -o /dev/null -e /dev/null \
   -m n \
   scripts/convert/qsub_mcore_to_hf.sh

@@ -170,8 +170,8 @@ data:
   ## OpenAI format specific configs
   # train_data_path: "./merged_dataset/merged.train.jsonl"  # Path to training data
   # val_data_path: "./merged_dataset/merged.dev.jsonl"      # Path to validation data
-  train_data_path: "/home/ach17726fj/experiments/0227_moe_tuning/llm-jp-nemo-rl/merged_dataset/merged.train.cleaned.jsonl"
-  val_data_path: "/home/ach17726fj/experiments/0227_moe_tuning/llm-jp-nemo-rl/merged_dataset/merged.dev.cleaned.jsonl"
+  train_data_path: "/home/ach17726fj/experiments/0227_moe_tuning/nemo-rl/llm_jp/merged_dataset/merged.train.cleaned.jsonl"
+  val_data_path: "/home/ach17726fj/experiments/0227_moe_tuning/nemo-rl/llm_jp/merged_dataset/merged.dev.cleaned.jsonl"
   chat_key: "messages"                     # Key for messages in the data
   system_key: null                         # Key for system message (optional)
   system_prompt: null                      # Default system prompt (optional)

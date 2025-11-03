@@ -46,7 +46,7 @@ echo "NAME=${NAME}"
 #     model.restore_from_path=${MODEL_PATH} \
 #     "${MODEL_PARAMS[@]}"
 
-uv run python examples/run_sft.py \
+uv run python llm_jp/run_sft.py \
   --config ${CONFIG_PATH} \
   policy.model_name=${MODEL_PATH} \
   sft.seed=${SEED}
