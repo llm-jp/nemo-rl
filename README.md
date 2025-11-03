@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> 
+> This repository is an LLM-jp version fork of the original [NeMo RL repository](https://github.com/NVIDIA-NeMo/RL).
+> Please refer to [`llm_jp/README.md`](llm_jp/README.md) for documentation specific to this LLM-jp version.
+
 # NeMo RL: A Scalable and Efficient Post-Training Library
 
 [![CICD NeMo RL](https://github.com/NVIDIA-NeMo/RL/actions/workflows/cicd-main.yml/badge.svg?branch=main&event=schedule)](https://github.com/NVIDIA-NeMo/RL/actions/workflows/cicd-main.yml)
